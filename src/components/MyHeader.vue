@@ -1,6 +1,6 @@
 <template>
-        <nav class="my_header sticky-top">
-            <img class="img-fluid" src="../assets/FotoProfiloC.jpg" alt="">
+        <nav class="my_header">
+            <img class="img-fluid" src="../assets/FotoProfiloC.jpg" alt=""> <!-- img da cambiare --> 
             <div class="d-flex justify-content-center align-items-center">
                 <ul class="my_list">
                     <li class="d-flex flex-column">
@@ -19,6 +19,10 @@
         return{
             myLink: [
                 {
+                    name: 'Home',
+                    section: '#'
+                },
+                {
                     name: 'Chi sono',
                     section: '#aboutme'
                 },
@@ -29,10 +33,6 @@
                 {
                     name: 'Contatti',
                     section: '#contatti'
-                },
-                {
-                    name: 'Home',
-                    section: '#'
                 }
             ]
         }
@@ -48,12 +48,16 @@
     height: 100%;
     position: fixed!important;
     z-index: 1;
+
+    img{
+        
+    }
     .my_list{
         list-style: none;
         padding: 0;
         a{
             text-decoration: none;
-            color: black;
+            color: white;
         }
     }
 }

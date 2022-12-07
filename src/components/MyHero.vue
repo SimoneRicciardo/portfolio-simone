@@ -18,7 +18,7 @@
 
     background-image: url(../assets/Backgorund.gif);
     background-size: cover;
-    height: calc(100vh - 50px);
+    height: 100vh;
     width: 100%;
     color: white;
 }

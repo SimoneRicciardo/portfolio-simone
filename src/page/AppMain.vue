@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="my_style">
       <MyHero/>
       <SectionAboutMe/>
       <SectionMyCompetenze/>
@@ -20,5 +20,7 @@
   </script>
   
   <style scoped lang="scss">
-
+.my_style{
+    margin-left: 120px;
+  }
   </style>
