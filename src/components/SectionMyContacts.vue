@@ -19,6 +19,7 @@
   
   <style scoped lang="scss">
     .my_style_con{
+        margin-left: 80px;
         height: 100vh;
         background-color: rgb(129, 129, 207);
         color: white;
